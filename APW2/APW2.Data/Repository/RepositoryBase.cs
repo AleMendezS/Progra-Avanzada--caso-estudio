@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using APW2.Data.Models;
 
-namespace AB.Data.Repository;
+namespace APW2.Data.Repository;
 
 public interface IRepositoryBase<T> where T : class
 {
@@ -18,7 +18,7 @@ public class RepositoryBase<T> : IRepositoryBase<T> where T : class
 
     public RepositoryBase()
     {
-        _context = new ProcessdbContext(); 
+        _context = new ProcessdbContext();
     }
 
     public async Task<bool> CreateAsync(T entity)

@@ -1,19 +1,19 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using APW2.Data.Models;
 
-namespace AB.Data.Repository;
+namespace APW2.Data.Repository;
 
 /// <summary>
 /// Interface for TaskManager repository operations.
 /// </summary>
 public interface ITaskManagerRepository
 {
-	/// <summary>
-	/// Deletes a TaskManager asynchronously.
-	/// </summary>
-	/// <param name="TaskManager">The TaskManager to delete.</param>
-	/// <returns>A task that represents the asynchronous operation. The task result contains a boolean indicating success.</returns>
-	Task<bool> DeleteTaskManagerAsync(TaskManager taskManager);
+    /// <summary>
+    /// Deletes a TaskManager asynchronously.
+    /// </summary>
+    /// <param name="TaskManager">The TaskManager to delete.</param>
+    /// <returns>A task that represents the asynchronous operation. The task result contains a boolean indicating success.</returns>
+    Task<bool> DeleteTaskManagerAsync(TaskManager taskManager);
 
     /// <summary>
     /// Retrieves a TaskManager by its identifier.
@@ -38,7 +38,7 @@ public interface ITaskManagerRepository
     /// <returns>A task that represents the asynchronous operation. The task result contains a boolean indicating success.</returns>
     Task<TaskManager> SaveTaskManagerAsync(TaskManager taskManager);
 
-    
+
 }
 
 /// <summary>
@@ -68,28 +68,28 @@ public class TaskManagerRepository : RepositoryBase<TaskManager>, ITaskManagerRe
     /// <param name="categories">The collection of TaskManagers to save.</param>
     /// <returns>A task that represents the asynchronous operation. The task result contains a boolean indicating success.</returns>
     public async Task<bool> SaveCategoriesAsync(IEnumerable<TaskManager> categories)
-	{
-		foreach (var c in categories)
-		{
-			var exists = await ExistsAsync(c);
-			if (exists)
-				await UpdateAsync(c);
-			else
-				await CreateAsync(c);
-		}
+    {
+        foreach (var c in categories)
+        {
+            var exists = await ExistsAsync(c);
+            if (exists)
+                await UpdateAsync(c);
+            else
+                await CreateAsync(c);
+        }
 
-		return true;
-	}
+        return true;
+    }
 
-	/// <summary>
-	/// Deletes a TaskManager asynchronously.
-	/// </summary>
-	/// <param name="TaskManager">The TaskManager to delete.</param>
-	/// <returns>A task that represents the asynchronous operation. The task result contains a boolean indicating success.</returns>
-	public async Task<bool> DeleteTaskManagerAsync(TaskManager taskManager)
-	{
-		return await DeleteAsync(taskManager);
-	}
+    /// <summary>
+    /// Deletes a TaskManager asynchronously.
+    /// </summary>
+    /// <param name="TaskManager">The TaskManager to delete.</param>
+    /// <returns>A task that represents the asynchronous operation. The task result contains a boolean indicating success.</returns>
+    public async Task<bool> DeleteTaskManagerAsync(TaskManager taskManager)
+    {
+        return await DeleteAsync(taskManager);
+    }
 
     /// <summary>
     /// Retrieves a TaskManager by its identifier asynchronously.

@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\noerr\\source\\repos\\Progra-Avanzada--caso-estudio\\APW2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C3BDEAE0-CDE5-409D-ABF9-BEEB3146E680}|APW2.Data\\APW2.Data.csproj|c:\\users\\noerr\\source\\repos\\progra-avanzada--caso-estudio\\apw2\\apw2.data\\repository\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3BDEAE0-CDE5-409D-ABF9-BEEB3146E680}|APW2.Data\\APW2.Data.csproj|solutionrelative:apw2.data\\repository\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BF90DB56-AD9C-4E94-90CA-C4CB2E8D7C8E}|APW2.Service\\APW2.Service.csproj|c:\\users\\noerr\\source\\repos\\progra-avanzada--caso-estudio\\apw2\\apw2.service\\taskmanagerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BF90DB56-AD9C-4E94-90CA-C4CB2E8D7C8E}|APW2.Service\\APW2.Service.csproj|solutionrelative:apw2.service\\taskmanagerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3BDEAE0-CDE5-409D-ABF9-BEEB3146E680}|APW2.Data\\APW2.Data.csproj|c:\\users\\noerr\\source\\repos\\progra-avanzada--caso-estudio\\apw2\\apw2.data\\models\\processdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3BDEAE0-CDE5-409D-ABF9-BEEB3146E680}|APW2.Data\\APW2.Data.csproj|solutionrelative:apw2.data\\models\\processdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C3BDEAE0-CDE5-409D-ABF9-BEEB3146E680}|APW2.Data\\APW2.Data.csproj|c:\\users\\noerr\\source\\repos\\progra-avanzada--caso-estudio\\apw2\\apw2.data\\repository\\taskmanagerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3BDEAE0-CDE5-409D-ABF9-BEEB3146E680}|APW2.Data\\APW2.Data.csproj|solutionrelative:apw2.data\\repository\\taskmanagerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3BDEAE0-CDE5-409D-ABF9-BEEB3146E680}|APW2.Data\\APW2.Data.csproj|c:\\users\\noerr\\source\\repos\\progra-avanzada--caso-estudio\\apw2\\apw2.data\\repository\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3BDEAE0-CDE5-409D-ABF9-BEEB3146E680}|APW2.Data\\APW2.Data.csproj|solutionrelative:apw2.data\\repository\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3BDEAE0-CDE5-409D-ABF9-BEEB3146E680}|APW2.Data\\APW2.Data.csproj|c:\\users\\noerr\\source\\repos\\progra-avanzada--caso-estudio\\apw2\\apw2.data\\models\\processdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3BDEAE0-CDE5-409D-ABF9-BEEB3146E680}|APW2.Data\\APW2.Data.csproj|solutionrelative:apw2.data\\models\\processdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C3BDEAE0-CDE5-409D-ABF9-BEEB3146E680}|APW2.Data\\APW2.Data.csproj|c:\\users\\noerr\\source\\repos\\progra-avanzada--caso-estudio\\apw2\\apw2.data\\models\\taskmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -37,7 +37,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 181,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -53,7 +53,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "RepositoryBase.cs",
               "DocumentMoniker": "C:\\Users\\noerr\\source\\repos\\Progra-Avanzada--caso-estudio\\APW2\\APW2.Data\\Repository\\RepositoryBase.cs",
               "RelativeDocumentMoniker": "APW2.Data\\Repository\\RepositoryBase.cs",
@@ -66,26 +66,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "TaskManagerRepository.cs",
               "DocumentMoniker": "C:\\Users\\noerr\\source\\repos\\Progra-Avanzada--caso-estudio\\APW2\\APW2.Data\\Repository\\TaskManagerRepository.cs",
               "RelativeDocumentMoniker": "APW2.Data\\Repository\\TaskManagerRepository.cs",
               "ToolTip": "C:\\Users\\noerr\\source\\repos\\Progra-Avanzada--caso-estudio\\APW2\\APW2.Data\\Repository\\TaskManagerRepository.cs",
               "RelativeToolTip": "APW2.Data\\Repository\\TaskManagerRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-12T01:33:45.232Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "TaskManagerService.cs",
               "DocumentMoniker": "C:\\Users\\noerr\\source\\repos\\Progra-Avanzada--caso-estudio\\APW2\\APW2.Service\\TaskManagerService.cs",
               "RelativeDocumentMoniker": "APW2.Service\\TaskManagerService.cs",
               "ToolTip": "C:\\Users\\noerr\\source\\repos\\Progra-Avanzada--caso-estudio\\APW2\\APW2.Service\\TaskManagerService.cs",
               "RelativeToolTip": "APW2.Service\\TaskManagerService.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAUwFkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-12T01:14:46.442Z",
               "EditorCaption": ""
@@ -116,7 +116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ProcessdbContext.cs",
               "DocumentMoniker": "C:\\Users\\noerr\\source\\repos\\Progra-Avanzada--caso-estudio\\APW2\\APW2.Data\\Models\\ProcessdbContext.cs",
               "RelativeDocumentMoniker": "APW2.Data\\Models\\ProcessdbContext.cs",
@@ -124,8 +124,7 @@
               "RelativeToolTip": "APW2.Data\\Models\\ProcessdbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T01:02:50.499Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-12T01:02:50.499Z"
             },
             {
               "$type": "Document",
