@@ -1,5 +1,6 @@
 {
   "Version": 1,
+<<<<<<< Updated upstream
   "WorkspaceRootPath": "C:\\Users\\elena\\Desktop\\Universidad\\2024\\Tercer cuatri\\Progra avanzada web\\Caso de estudio\\Progra-Avanzada--caso-estudio\\APW2\\",
   "Documents": [
     {
@@ -20,6 +21,24 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{C3BDEAE0-CDE5-409D-ABF9-BEEB3146E680}|APW2.Data\\APW2.Data.csproj|c:\\users\\elena\\desktop\\universidad\\2024\\tercer cuatri\\progra avanzada web\\caso de estudio\\progra-avanzada--caso-estudio\\apw2\\apw2.data\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+=======
+  "WorkspaceRootPath": "C:\\Users\\noerr\\source\\repos\\APW2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C3BDEAE0-CDE5-409D-ABF9-BEEB3146E680}|APW2.Data\\APW2.Data.csproj|c:\\users\\noerr\\source\\repos\\apw2\\apw2.data\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3BDEAE0-CDE5-409D-ABF9-BEEB3146E680}|APW2.Data\\APW2.Data.csproj|solutionrelative:apw2.data\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3BDEAE0-CDE5-409D-ABF9-BEEB3146E680}|APW2.Data\\APW2.Data.csproj|c:\\users\\noerr\\source\\repos\\apw2\\apw2.data\\models\\taskmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3BDEAE0-CDE5-409D-ABF9-BEEB3146E680}|APW2.Data\\APW2.Data.csproj|solutionrelative:apw2.data\\models\\taskmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3BDEAE0-CDE5-409D-ABF9-BEEB3146E680}|APW2.Data\\APW2.Data.csproj|c:\\users\\noerr\\source\\repos\\apw2\\apw2.data\\models\\processdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3BDEAE0-CDE5-409D-ABF9-BEEB3146E680}|APW2.Data\\APW2.Data.csproj|solutionrelative:apw2.data\\models\\processdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3BDEAE0-CDE5-409D-ABF9-BEEB3146E680}|APW2.Data\\APW2.Data.csproj|c:\\users\\noerr\\source\\repos\\apw2\\apw2.data\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+>>>>>>> Stashed changes
       "RelativeMoniker": "D:0:0:{C3BDEAE0-CDE5-409D-ABF9-BEEB3146E680}|APW2.Data\\APW2.Data.csproj|solutionrelative:apw2.data\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -30,7 +49,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 181,
+<<<<<<< Updated upstream
           "SelectedChildIndex": 18,
+=======
+          "SelectedChildIndex": 3,
+>>>>>>> Stashed changes
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,6 +73,7 @@
             },
             {
               "$type": "Bookmark",
+<<<<<<< Updated upstream
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
@@ -103,10 +127,14 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+=======
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+>>>>>>> Stashed changes
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+<<<<<<< Updated upstream
               "Title": "TaskManagerService.cs",
               "DocumentMoniker": "C:\\Users\\elena\\Desktop\\Universidad\\2024\\Tercer cuatri\\Progra avanzada web\\Caso de estudio\\Progra-Avanzada--caso-estudio\\APW2\\APW2.Service\\TaskManagerService.cs",
               "RelativeDocumentMoniker": "APW2.Service\\TaskManagerService.cs",
@@ -126,12 +154,21 @@
               "ToolTip": "C:\\Users\\elena\\Desktop\\Universidad\\2024\\Tercer cuatri\\Progra avanzada web\\Caso de estudio\\Progra-Avanzada--caso-estudio\\APW2\\APW2.Data\\Models\\User.cs",
               "RelativeToolTip": "APW2.Data\\Models\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAxAAAAAAAAAA==",
+=======
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\noerr\\source\\repos\\APW2\\APW2.Data\\Models\\User.cs",
+              "RelativeDocumentMoniker": "APW2.Data\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\noerr\\source\\repos\\APW2\\APW2.Data\\Models\\User.cs",
+              "RelativeToolTip": "APW2.Data\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-12T01:02:53.619Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 2,
               "Title": "TaskManager.cs",
               "DocumentMoniker": "C:\\Users\\elena\\Desktop\\Universidad\\2024\\Tercer cuatri\\Progra avanzada web\\Caso de estudio\\Progra-Avanzada--caso-estudio\\APW2\\APW2.Data\\Models\\TaskManager.cs",
@@ -141,10 +178,36 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-12T01:02:52.007Z"
+=======
+              "DocumentIndex": 1,
+              "Title": "TaskManager.cs",
+              "DocumentMoniker": "C:\\Users\\noerr\\source\\repos\\APW2\\APW2.Data\\Models\\TaskManager.cs",
+              "RelativeDocumentMoniker": "APW2.Data\\Models\\TaskManager.cs",
+              "ToolTip": "C:\\Users\\noerr\\source\\repos\\APW2\\APW2.Data\\Models\\TaskManager.cs",
+              "RelativeToolTip": "APW2.Data\\Models\\TaskManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T01:02:52.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProcessdbContext.cs",
+              "DocumentMoniker": "C:\\Users\\noerr\\source\\repos\\APW2\\APW2.Data\\Models\\ProcessdbContext.cs",
+              "RelativeDocumentMoniker": "APW2.Data\\Models\\ProcessdbContext.cs",
+              "ToolTip": "C:\\Users\\noerr\\source\\repos\\APW2\\APW2.Data\\Models\\ProcessdbContext.cs",
+              "RelativeToolTip": "APW2.Data\\Models\\ProcessdbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T01:02:50.499Z",
+              "EditorCaption": ""
+>>>>>>> Stashed changes
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+<<<<<<< Updated upstream
               "Title": "ProcessdbContext.cs",
               "DocumentMoniker": "C:\\Users\\elena\\Desktop\\Universidad\\2024\\Tercer cuatri\\Progra avanzada web\\Caso de estudio\\Progra-Avanzada--caso-estudio\\APW2\\APW2.Data\\Models\\ProcessdbContext.cs",
               "RelativeDocumentMoniker": "APW2.Data\\Models\\ProcessdbContext.cs",
@@ -165,6 +228,17 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-12T00:56:28.465Z"
+=======
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\noerr\\source\\repos\\APW2\\APW2.Data\\Class1.cs",
+              "RelativeDocumentMoniker": "APW2.Data\\Class1.cs",
+              "ToolTip": "C:\\Users\\noerr\\source\\repos\\APW2\\APW2.Data\\Class1.cs",
+              "RelativeToolTip": "APW2.Data\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T00:56:28.465Z",
+              "EditorCaption": ""
+>>>>>>> Stashed changes
             }
           ]
         }

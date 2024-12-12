@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< Updated upstream
     "C:\\Users\\elena\\Desktop\\Universidad\\2024\\Tercer cuatri\\Progra avanzada web\\Caso de estudio\\Progra-Avanzada--caso-estudio\\APW2\\APW2.Data\\APW2.Data.csproj": {}
   },
   "projects": {
@@ -12,6 +13,19 @@
         "projectPath": "C:\\Users\\elena\\Desktop\\Universidad\\2024\\Tercer cuatri\\Progra avanzada web\\Caso de estudio\\Progra-Avanzada--caso-estudio\\APW2\\APW2.Data\\APW2.Data.csproj",
         "packagesPath": "C:\\Users\\elena\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\elena\\Desktop\\Universidad\\2024\\Tercer cuatri\\Progra avanzada web\\Caso de estudio\\Progra-Avanzada--caso-estudio\\APW2\\APW2.Data\\obj\\",
+=======
+    "C:\\Users\\noerr\\source\\repos\\Progra-Avanzada--caso-estudio\\APW2\\APW2.Data\\APW2.Data.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\noerr\\source\\repos\\Progra-Avanzada--caso-estudio\\APW2\\APW2.Data\\APW2.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\noerr\\source\\repos\\Progra-Avanzada--caso-estudio\\APW2\\APW2.Data\\APW2.Data.csproj",
+        "projectName": "APW2.Data",
+        "projectPath": "C:\\Users\\noerr\\source\\repos\\Progra-Avanzada--caso-estudio\\APW2\\APW2.Data\\APW2.Data.csproj",
+        "packagesPath": "C:\\Users\\noerr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\noerr\\source\\repos\\Progra-Avanzada--caso-estudio\\APW2\\APW2.Data\\obj\\",
+>>>>>>> Stashed changes
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

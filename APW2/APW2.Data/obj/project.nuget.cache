@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< Updated upstream
   "dgSpecHash": "2jKxYqr/CtA=",
   "success": true,
   "projectFilePath": "C:\\Users\\elena\\Desktop\\Universidad\\2024\\Tercer cuatri\\Progra avanzada web\\Caso de estudio\\Progra-Avanzada--caso-estudio\\APW2\\APW2.Data\\APW2.Data.csproj",
+=======
+  "dgSpecHash": "sygSZ/sDXT8=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\noerr\\source\\repos\\Progra-Avanzada--caso-estudio\\APW2\\APW2.Data\\APW2.Data.csproj",
+>>>>>>> Stashed changes
   "expectedPackageFiles": [
     "C:\\Users\\elena\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\elena\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
