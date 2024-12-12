@@ -1,5 +1,6 @@
-﻿using AB.Data.Repository;
-using APW2.Data.Models;
+﻿using APW2.Data.Models;
+using APW2.Data.Repository;
+using System.Collections.Concurrent;
 
 namespace APW2.Service
 {
@@ -34,6 +35,7 @@ namespace APW2.Service
     {
         private readonly ITaskManagerRepository _taskManagerRepository;
         private readonly SemaphoreSlim _semaphore = new SemaphoreSlim(1, 1);
+        private readonly ConcurrentDictionary<int, CancellationTokenSource> _taskCancellationTokens = new ConcurrentDictionary<int, CancellationTokenSource>();
 
         /// <summary>
         /// Initializes a new instance of the <see cref="TaskManagerService"/> class.
@@ -66,35 +68,60 @@ namespace APW2.Service
             return await _taskManagerRepository.DeleteTaskManagerAsync(deletion);
         }
 
-        public async Task ExecuteTasksAsync(CancellationToken cancellationToken)
+        public async Task ExecuteTasksAsync()
         {
-            await _semaphore.WaitAsync(); try
+            await _semaphore.WaitAsync(); 
+            try
             {
-                var tasks = await _taskManagerRepository.GetAllTaskManagerAsync(); foreach (var task in tasks.Where(t => t.Status == "Pending"))
+                var tasks = await _taskManagerRepository.GetAllTaskManagerAsync(); 
+                foreach (var task in tasks.Where(t => t.Status == "Pending"))
                 {
-                    await ExecuteTaskAsync(task, cancellationToken); await Task.Delay(5000); // Espera de 5 segundos entre tareas
+                    var cancellationTokenSource = new CancellationTokenSource(); 
+                    _taskCancellationTokens[task.TaskId] = cancellationTokenSource; 
+                    var command = new TaskCommand(task, _taskManagerRepository); 
+                    await command.ExecuteAsync(cancellationTokenSource.Token); 
+                    await Task.Delay(5000); // Espera de 5 segundos entre tareas
                 } 
-            } finally 
-            { _semaphore.Release();
-            } 
-        } 
-        private async Task ExecuteTaskAsync(TaskManager task, CancellationToken cancellationToken) 
-        { 
-            try 
+            }
+            finally 
             { 
-                task.Status = "In Progress";
-                await _taskManagerRepository.SaveTaskManagerAsync(task); 
-
+                _semaphore.Release();
+            } 
+        }
+        public async Task StopTaskAsync(int taskId) 
+        { 
+            if (_taskCancellationTokens.TryGetValue(taskId, out var cancellationTokenSource)) 
+            { 
+                cancellationTokenSource.Cancel(); 
+                _taskCancellationTokens.TryRemove(taskId, out _); 
+            } 
+        }
+    }
+    public interface ICommand 
+    { Task ExecuteAsync(CancellationToken cancellationToken); 
+    }
+    public class TaskCommand : ICommand
+    {
+        private readonly TaskManager _taskManager; 
+        private readonly ITaskManagerRepository _taskManagerRepository; 
+        public TaskCommand(TaskManager taskManager, ITaskManagerRepository taskManagerRepository) 
+        { _taskManager = taskManager; _taskManagerRepository = taskManagerRepository; 
+        }
+        public async Task ExecuteAsync(CancellationToken cancellationToken)
+        {
+            try
+            {
+                _taskManager.Status = "In Progress"; await _taskManagerRepository.SaveTaskManagerAsync(_taskManager); 
                 await Task.Delay(10000, cancellationToken); // Simula una operación de 10 segundos
-                task.Status = "Completed"; 
-
-                await _taskManagerRepository.SaveTaskManagerAsync(task); 
+                
+                _taskManager.Status = "Completed"; 
+                await _taskManagerRepository.SaveTaskManagerAsync(_taskManager); 
             } 
             catch (OperationCanceledException) 
             { 
-                task.Status = "Cancelled"; 
-                await _taskManagerRepository.SaveTaskManagerAsync(task); 
-            }
-        }
-    }
+                _taskManager.Status = "Cancelled"; 
+                await _taskManagerRepository.SaveTaskManagerAsync(_taskManager); 
+            } 
+        } 
+    } 
 }
