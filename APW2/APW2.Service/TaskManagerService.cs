@@ -1,4 +1,7 @@
-﻿namespace APW2.Service
+﻿using AB.Data.Repository;
+using APW2.Data.Models;
+
+namespace APW2.Service
 {
     public interface ITaskManagerService
     {
@@ -29,7 +32,7 @@
 
     public class TaskManagerService : ITaskManagerService
     {
-        private readonly ITaskManagerRepository _TaskManagerRepository;
+        private readonly ITaskManagerRepository _taskManagerRepository;
 
         /// <summary>
         /// Initializes a new instance of the <see cref="TaskManagerService"/> class.
@@ -58,7 +61,7 @@
         public async Task<bool> DeleteTaskManagerAsync(int id)
         {
             var taskManagers = await _taskManagerRepository.GetAllTaskManagerAsync();
-            var deletion = taskManagers.SingleOrDefault(x => x.TaskManagerId == id);
+            var deletion = taskManagers.SingleOrDefault(x => x.TaskId == id);
             return await _taskManagerRepository.DeleteTaskManagerAsync(deletion);
         }
     }

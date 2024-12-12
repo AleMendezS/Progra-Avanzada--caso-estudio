@@ -1,0 +1,12 @@
+C:\Users\elena\Desktop\Universidad\2024\Tercer cuatri\Progra avanzada web\Caso de estudio\Progra-Avanzada--caso-estudio\APW2\APW2.Architecture\bin\Debug\net9.0\APW2.Architecture.deps.json
+C:\Users\elena\Desktop\Universidad\2024\Tercer cuatri\Progra avanzada web\Caso de estudio\Progra-Avanzada--caso-estudio\APW2\APW2.Architecture\bin\Debug\net9.0\APW2.Architecture.dll
+C:\Users\elena\Desktop\Universidad\2024\Tercer cuatri\Progra avanzada web\Caso de estudio\Progra-Avanzada--caso-estudio\APW2\APW2.Architecture\bin\Debug\net9.0\APW2.Architecture.pdb
+C:\Users\elena\Desktop\Universidad\2024\Tercer cuatri\Progra avanzada web\Caso de estudio\Progra-Avanzada--caso-estudio\APW2\APW2.Architecture\obj\Debug\net9.0\APW2.Architecture.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\elena\Desktop\Universidad\2024\Tercer cuatri\Progra avanzada web\Caso de estudio\Progra-Avanzada--caso-estudio\APW2\APW2.Architecture\obj\Debug\net9.0\APW2.Architecture.AssemblyInfoInputs.cache
+C:\Users\elena\Desktop\Universidad\2024\Tercer cuatri\Progra avanzada web\Caso de estudio\Progra-Avanzada--caso-estudio\APW2\APW2.Architecture\obj\Debug\net9.0\APW2.Architecture.AssemblyInfo.cs
+C:\Users\elena\Desktop\Universidad\2024\Tercer cuatri\Progra avanzada web\Caso de estudio\Progra-Avanzada--caso-estudio\APW2\APW2.Architecture\obj\Debug\net9.0\APW2.Architecture.csproj.CoreCompileInputs.cache
+C:\Users\elena\Desktop\Universidad\2024\Tercer cuatri\Progra avanzada web\Caso de estudio\Progra-Avanzada--caso-estudio\APW2\APW2.Architecture\obj\Debug\net9.0\APW2.Architecture.sourcelink.json
+C:\Users\elena\Desktop\Universidad\2024\Tercer cuatri\Progra avanzada web\Caso de estudio\Progra-Avanzada--caso-estudio\APW2\APW2.Architecture\obj\Debug\net9.0\APW2.Architecture.dll
+C:\Users\elena\Desktop\Universidad\2024\Tercer cuatri\Progra avanzada web\Caso de estudio\Progra-Avanzada--caso-estudio\APW2\APW2.Architecture\obj\Debug\net9.0\refint\APW2.Architecture.dll
+C:\Users\elena\Desktop\Universidad\2024\Tercer cuatri\Progra avanzada web\Caso de estudio\Progra-Avanzada--caso-estudio\APW2\APW2.Architecture\obj\Debug\net9.0\APW2.Architecture.pdb
+C:\Users\elena\Desktop\Universidad\2024\Tercer cuatri\Progra avanzada web\Caso de estudio\Progra-Avanzada--caso-estudio\APW2\APW2.Architecture\obj\Debug\net9.0\ref\APW2.Architecture.dll

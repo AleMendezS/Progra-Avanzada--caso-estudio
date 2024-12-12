@@ -1,0 +1,16 @@
+C:\Users\elena\Desktop\Universidad\2024\Tercer cuatri\Progra avanzada web\Caso de estudio\Progra-Avanzada--caso-estudio\APW2\APW2.Service\bin\Debug\net9.0\APW2.Service.deps.json
+C:\Users\elena\Desktop\Universidad\2024\Tercer cuatri\Progra avanzada web\Caso de estudio\Progra-Avanzada--caso-estudio\APW2\APW2.Service\bin\Debug\net9.0\APW2.Service.dll
+C:\Users\elena\Desktop\Universidad\2024\Tercer cuatri\Progra avanzada web\Caso de estudio\Progra-Avanzada--caso-estudio\APW2\APW2.Service\bin\Debug\net9.0\APW2.Service.pdb
+C:\Users\elena\Desktop\Universidad\2024\Tercer cuatri\Progra avanzada web\Caso de estudio\Progra-Avanzada--caso-estudio\APW2\APW2.Service\bin\Debug\net9.0\APW2.Data.dll
+C:\Users\elena\Desktop\Universidad\2024\Tercer cuatri\Progra avanzada web\Caso de estudio\Progra-Avanzada--caso-estudio\APW2\APW2.Service\bin\Debug\net9.0\APW2.Data.pdb
+C:\Users\elena\Desktop\Universidad\2024\Tercer cuatri\Progra avanzada web\Caso de estudio\Progra-Avanzada--caso-estudio\APW2\APW2.Service\obj\Debug\net9.0\APW2.Service.csproj.AssemblyReference.cache
+C:\Users\elena\Desktop\Universidad\2024\Tercer cuatri\Progra avanzada web\Caso de estudio\Progra-Avanzada--caso-estudio\APW2\APW2.Service\obj\Debug\net9.0\APW2.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\elena\Desktop\Universidad\2024\Tercer cuatri\Progra avanzada web\Caso de estudio\Progra-Avanzada--caso-estudio\APW2\APW2.Service\obj\Debug\net9.0\APW2.Service.AssemblyInfoInputs.cache
+C:\Users\elena\Desktop\Universidad\2024\Tercer cuatri\Progra avanzada web\Caso de estudio\Progra-Avanzada--caso-estudio\APW2\APW2.Service\obj\Debug\net9.0\APW2.Service.AssemblyInfo.cs
+C:\Users\elena\Desktop\Universidad\2024\Tercer cuatri\Progra avanzada web\Caso de estudio\Progra-Avanzada--caso-estudio\APW2\APW2.Service\obj\Debug\net9.0\APW2.Service.csproj.CoreCompileInputs.cache
+C:\Users\elena\Desktop\Universidad\2024\Tercer cuatri\Progra avanzada web\Caso de estudio\Progra-Avanzada--caso-estudio\APW2\APW2.Service\obj\Debug\net9.0\APW2.Service.sourcelink.json
+C:\Users\elena\Desktop\Universidad\2024\Tercer cuatri\Progra avanzada web\Caso de estudio\Progra-Avanzada--caso-estudio\APW2\APW2.Service\obj\Debug\net9.0\APW2.Ser.A37D4BCF.Up2Date
+C:\Users\elena\Desktop\Universidad\2024\Tercer cuatri\Progra avanzada web\Caso de estudio\Progra-Avanzada--caso-estudio\APW2\APW2.Service\obj\Debug\net9.0\APW2.Service.dll
+C:\Users\elena\Desktop\Universidad\2024\Tercer cuatri\Progra avanzada web\Caso de estudio\Progra-Avanzada--caso-estudio\APW2\APW2.Service\obj\Debug\net9.0\refint\APW2.Service.dll
+C:\Users\elena\Desktop\Universidad\2024\Tercer cuatri\Progra avanzada web\Caso de estudio\Progra-Avanzada--caso-estudio\APW2\APW2.Service\obj\Debug\net9.0\APW2.Service.pdb
+C:\Users\elena\Desktop\Universidad\2024\Tercer cuatri\Progra avanzada web\Caso de estudio\Progra-Avanzada--caso-estudio\APW2\APW2.Service\obj\Debug\net9.0\ref\APW2.Service.dll
