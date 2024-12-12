@@ -1,11 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35514.174 d17.12
+VisualStudioVersion = 17.12.35514.174
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APW2", "APW2\APW2.csproj", "{34FDE482-AECC-459D-B148-9ECDC135FD99}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APW2.Data", "APW2.Data\APW2.Data.csproj", "{C3BDEAE0-CDE5-409D-ABF9-BEEB3146E680}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APW2.Service", "APW2.Service\APW2.Service.csproj", "{BF90DB56-AD9C-4E94-90CA-C4CB2E8D7C8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APW2.Architecture", "APW2.Architecture\APW2.Architecture.csproj", "{9FEBB523-597D-4663-BA17-470F4C760AAE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{C3BDEAE0-CDE5-409D-ABF9-BEEB3146E680}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3BDEAE0-CDE5-409D-ABF9-BEEB3146E680}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3BDEAE0-CDE5-409D-ABF9-BEEB3146E680}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF90DB56-AD9C-4E94-90CA-C4CB2E8D7C8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF90DB56-AD9C-4E94-90CA-C4CB2E8D7C8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF90DB56-AD9C-4E94-90CA-C4CB2E8D7C8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF90DB56-AD9C-4E94-90CA-C4CB2E8D7C8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FEBB523-597D-4663-BA17-470F4C760AAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FEBB523-597D-4663-BA17-470F4C760AAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FEBB523-597D-4663-BA17-470F4C760AAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FEBB523-597D-4663-BA17-470F4C760AAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
