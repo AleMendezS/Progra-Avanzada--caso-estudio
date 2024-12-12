@@ -8,23 +8,23 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\elena\\.nuget\\packages\\": {},
+    "C:\\Users\\noerr\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\elena\\Desktop\\Universidad\\2024\\Tercer cuatri\\Progra avanzada web\\Caso de estudio\\Progra-Avanzada--caso-estudio\\APW2\\APW2\\APW2.csproj",
+      "projectUniqueName": "C:\\Users\\noerr\\source\\repos\\Progra-Avanzada--caso-estudio\\APW2\\APW2\\APW2.csproj",
       "projectName": "APW2",
-      "projectPath": "C:\\Users\\elena\\Desktop\\Universidad\\2024\\Tercer cuatri\\Progra avanzada web\\Caso de estudio\\Progra-Avanzada--caso-estudio\\APW2\\APW2\\APW2.csproj",
-      "packagesPath": "C:\\Users\\elena\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\elena\\Desktop\\Universidad\\2024\\Tercer cuatri\\Progra avanzada web\\Caso de estudio\\Progra-Avanzada--caso-estudio\\APW2\\APW2\\obj\\",
+      "projectPath": "C:\\Users\\noerr\\source\\repos\\Progra-Avanzada--caso-estudio\\APW2\\APW2\\APW2.csproj",
+      "packagesPath": "C:\\Users\\noerr\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\noerr\\source\\repos\\Progra-Avanzada--caso-estudio\\APW2\\APW2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\elena\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\noerr\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

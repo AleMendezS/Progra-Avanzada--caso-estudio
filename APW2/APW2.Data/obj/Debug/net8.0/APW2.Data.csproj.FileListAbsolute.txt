@@ -27,3 +27,18 @@ C:\Users\elena\Desktop\Universidad\2024\Tercer cuatri\Progra avanzada web\Caso d
 C:\Users\elena\Desktop\Universidad\2024\Tercer cuatri\Progra avanzada web\Caso de estudio\Progra-Avanzada--caso-estudio\APW2\APW2.Data\obj\Debug\net8.0\APW2.Data.pdb
 C:\Users\elena\Desktop\Universidad\2024\Tercer cuatri\Progra avanzada web\Caso de estudio\Progra-Avanzada--caso-estudio\APW2\APW2.Data\obj\Debug\net8.0\APW2.Data.genruntimeconfig.cache
 C:\Users\elena\Desktop\Universidad\2024\Tercer cuatri\Progra avanzada web\Caso de estudio\Progra-Avanzada--caso-estudio\APW2\APW2.Data\obj\Debug\net8.0\ref\APW2.Data.dll
+C:\Users\noerr\source\repos\Progra-Avanzada--caso-estudio\APW2\APW2.Data\obj\Debug\net8.0\APW2.Data.csproj.AssemblyReference.cache
+C:\Users\noerr\source\repos\Progra-Avanzada--caso-estudio\APW2\APW2.Data\obj\Debug\net8.0\APW2.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\noerr\source\repos\Progra-Avanzada--caso-estudio\APW2\APW2.Data\obj\Debug\net8.0\APW2.Data.AssemblyInfoInputs.cache
+C:\Users\noerr\source\repos\Progra-Avanzada--caso-estudio\APW2\APW2.Data\obj\Debug\net8.0\APW2.Data.AssemblyInfo.cs
+C:\Users\noerr\source\repos\Progra-Avanzada--caso-estudio\APW2\APW2.Data\obj\Debug\net8.0\APW2.Data.csproj.CoreCompileInputs.cache
+C:\Users\noerr\source\repos\Progra-Avanzada--caso-estudio\APW2\APW2.Data\obj\Debug\net8.0\APW2.Data.sourcelink.json
+C:\Users\noerr\source\repos\Progra-Avanzada--caso-estudio\APW2\APW2.Data\bin\Debug\net8.0\APW2.Data.deps.json
+C:\Users\noerr\source\repos\Progra-Avanzada--caso-estudio\APW2\APW2.Data\bin\Debug\net8.0\APW2.Data.runtimeconfig.json
+C:\Users\noerr\source\repos\Progra-Avanzada--caso-estudio\APW2\APW2.Data\bin\Debug\net8.0\APW2.Data.dll
+C:\Users\noerr\source\repos\Progra-Avanzada--caso-estudio\APW2\APW2.Data\bin\Debug\net8.0\APW2.Data.pdb
+C:\Users\noerr\source\repos\Progra-Avanzada--caso-estudio\APW2\APW2.Data\obj\Debug\net8.0\APW2.Data.dll
+C:\Users\noerr\source\repos\Progra-Avanzada--caso-estudio\APW2\APW2.Data\obj\Debug\net8.0\refint\APW2.Data.dll
+C:\Users\noerr\source\repos\Progra-Avanzada--caso-estudio\APW2\APW2.Data\obj\Debug\net8.0\APW2.Data.pdb
+C:\Users\noerr\source\repos\Progra-Avanzada--caso-estudio\APW2\APW2.Data\obj\Debug\net8.0\APW2.Data.genruntimeconfig.cache
+C:\Users\noerr\source\repos\Progra-Avanzada--caso-estudio\APW2\APW2.Data\obj\Debug\net8.0\ref\APW2.Data.dll
