@@ -33,6 +33,7 @@ namespace APW2.Service
     public class TaskManagerService : ITaskManagerService
     {
         private readonly ITaskManagerRepository _taskManagerRepository;
+        private readonly SemaphoreSlim _semaphore = new SemaphoreSlim(1, 1);
 
         /// <summary>
         /// Initializes a new instance of the <see cref="TaskManagerService"/> class.
@@ -63,6 +64,37 @@ namespace APW2.Service
             var taskManagers = await _taskManagerRepository.GetAllTaskManagerAsync();
             var deletion = taskManagers.SingleOrDefault(x => x.TaskId == id);
             return await _taskManagerRepository.DeleteTaskManagerAsync(deletion);
+        }
+
+        public async Task ExecuteTasksAsync(CancellationToken cancellationToken)
+        {
+            await _semaphore.WaitAsync(); try
+            {
+                var tasks = await _taskManagerRepository.GetAllTaskManagerAsync(); foreach (var task in tasks.Where(t => t.Status == "Pending"))
+                {
+                    await ExecuteTaskAsync(task, cancellationToken); await Task.Delay(5000); // Espera de 5 segundos entre tareas
+                } 
+            } finally 
+            { _semaphore.Release();
+            } 
+        } 
+        private async Task ExecuteTaskAsync(TaskManager task, CancellationToken cancellationToken) 
+        { 
+            try 
+            { 
+                task.Status = "In Progress";
+                await _taskManagerRepository.SaveTaskManagerAsync(task); 
+
+                await Task.Delay(10000, cancellationToken); // Simula una operación de 10 segundos
+                task.Status = "Completed"; 
+
+                await _taskManagerRepository.SaveTaskManagerAsync(task); 
+            } 
+            catch (OperationCanceledException) 
+            { 
+                task.Status = "Cancelled"; 
+                await _taskManagerRepository.SaveTaskManagerAsync(task); 
+            }
         }
     }
 }
